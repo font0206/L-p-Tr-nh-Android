@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cac kieu lap trinh HSK"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="#009933"
+        android:textColor="#fff"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:text="So a:"
+            android:textColor="#000" />
+
+        <EditText
+           android:id="@+id/ed_soA"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:width="400dp"
+           />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="So b:"
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            />
+        <EditText
+           android:id="@+id/ed_soB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="400dp"
+            />
+
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_KQ"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#009933"
+        android:gravity="center"
+
+        android:text="KQ....."
+        android:textColor="#fff"
+        />
+
+    <Button
+        android:id="@+id/btn_Tong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#EEEEEE	"
+        android:text="Tong 2 so" />
+    <Button
+        android:id="@+id/btn_Hieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#EEEEEE	"
+        android:text="Hieu 2 so"
+        />
+    <Button
+        android:id="@+id/btn_Tich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#EEEEEE	"
+        android:text="Tich 2 so"
+        />
+
+    <Button
+        android:id="@+id/btn_Thuong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#EEEEEE	"
+        android:text="Thuong 2 so"
+        />
+    <Button
+        android:id="@+id/btn_UCLN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#EEEEEE	"
+        android:text="UCLN 2 so"
+        />
+    <Button
+        android:id="@+id/btn_Thoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:backgroundTint="#EEEEEE	"
+        android:text="Thoat"
+        />
+
+
+
+</LinearLayout>
